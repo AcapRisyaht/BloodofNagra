@@ -18,7 +18,7 @@ Inspired by Malay mythology and forest legends, you play as a young warrior boun
 - Unity 2021.3 LTS
 - Krita (Pixel Art)
 - GitHub for version control
-- Built on a mid-range laptop (HP 14-am036tx)
+- Built on a mid-range laptop
 
 ---
 
