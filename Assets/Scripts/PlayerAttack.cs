@@ -66,7 +66,7 @@ public class PlayerAttack : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             Vector2 enemyDir = ((Vector2)enemy.transform.position - (Vector2)transform.position).normalized;
-            float dot = Vector2.Dot(transform.right, enemyDir);
+            float dot = Vector2.Dot(LastMoveDir.normalized, enemyDir);
 
 
             if (dot < 0.7) // Enemy is behind the player
